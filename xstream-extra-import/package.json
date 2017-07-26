@@ -1,0 +1,19 @@
+{
+  "name": "fuse-box-xstream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "ts-node fuse.ts",
+    "docker-watch": "docker-compose up fuse-box"
+  },
+  "dependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.18",
+    "fs-extra": "^4.0.0",
+    "fuse-box": "^2.2.1",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2",
+    "xstream": "^10.8.0"
+  }
+}

@@ -1,0 +1,1 @@
+sed -i -e 's/.context.homeDir)/.context.homeDir, {usePolling: true})/g' node_modules/fuse-box/dist/commonjs/core/BundleProducer.js
